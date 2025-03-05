@@ -26,11 +26,9 @@ namespace GyrusWebAPI.Controllers
         {
             _context = context;
             _config = config;
-
-
         }
 
-        public ActionResult getgitdata()
+        public ActionResult secondtry()
         {
             return NotFound();
         }
