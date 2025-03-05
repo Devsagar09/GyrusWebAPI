@@ -30,6 +30,11 @@ namespace GyrusWebAPI.Controllers
 
         }
 
+        public ActionResult getgitdata()
+        {
+            return NotFound();
+        }
+
         // GET: api/UserMasters
         [HttpGet] 
         public async Task<ActionResult<IEnumerable<UserMaster>>> GetUserMasters()
