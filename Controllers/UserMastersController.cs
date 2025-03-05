@@ -30,6 +30,16 @@ namespace GyrusWebAPI.Controllers
 
         }
 
+ 
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<UserMaster>>> GetMyName()
+        {
+            if (_context.UserMasters == null)
+            {
+                return NotFound();
+            }
+            return await _context.UserMasters.ToListAsync();
+
         public ActionResult trygit()
         {
             return NotFound();
@@ -38,6 +48,7 @@ namespace GyrusWebAPI.Controllers
         public ActionResult getdata()
         {
             return NotFound();
+
         }
 
         // GET: api/UserMasters
