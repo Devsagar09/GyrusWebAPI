@@ -30,14 +30,12 @@ namespace GyrusWebAPI.Controllers
 
         }
 
-<<<<<<< Updated upstream
-=======
+
         public ActionResult getdata()
         {
-            jgyugduwdgywuh
             return NotFound();
         }
->>>>>>> Stashed changes
+
         // GET: api/UserMasters
         [HttpGet] 
         public async Task<ActionResult<IEnumerable<UserMaster>>> GetUserMasters()
