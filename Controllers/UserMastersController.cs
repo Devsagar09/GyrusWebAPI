@@ -30,6 +30,10 @@ namespace GyrusWebAPI.Controllers
 
         }
 
+        public ActionResult trygit()
+        {
+            return NotFound();
+        }
 
         public ActionResult getdata()
         {
