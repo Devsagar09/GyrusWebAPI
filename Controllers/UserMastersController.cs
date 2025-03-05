@@ -21,7 +21,7 @@ namespace GyrusWebAPI.Controllers
     {
         private readonly DemoAPICoreDatabaseContext _context;
         private IConfiguration _config;
-
+           
         public UserMastersController(DemoAPICoreDatabaseContext context, IConfiguration config)
         {
             _context = context;
@@ -108,7 +108,6 @@ namespace GyrusWebAPI.Controllers
             return user;
         }
 
-         
 
         // POST: api/UserMasters
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
